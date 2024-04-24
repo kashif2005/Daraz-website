@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Online Shoping in Daraz</title>
+    <link rel="icon" type="image/png" href="./images/favvv-removebg-preview.png">
+    
+</head>
+
+<body>
+    <header>
+        <div class="topNav">
+            <ul>
+                <li><a href="#">Become a seller</a></li>
+                <li><a href="#">daraz affiliate program</a></li>
+                <li><a href="#">help and support</a></li>
+                <li><a href="#">Daraz Logistics partener</a></li>
+            </ul>
+            <div>
+                <button class="btn">Save More on App</button>
+            </div>
+        </div>
+        <nav>
+            <div class="logoDiv">
+                <img src="./images/darazLogo.png" alt="logo" class="darazLogo">
+            </div>
+            <div class="searchbarDiv">
+                <input type="text" class="searchBar" placeholder="Search in Daraz">
+                <div class="searchbtn">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+            <div class="rightElements">
+                <a href="login.html" class="loginBtn"><i class="fa-solid fa-user"></i>Login</a>
+                <!-- <span>|</span> -->
+                <a href="signup.html" class="signupBtn">Signup</a>
+                <a href="" class="languagebtn"><i class="fa-solid fa-globe"></i>ENG<i class="fa-solid fa-chevron-down"></i></a>
+                <a href="" class="cartBtn"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <div class="mainContainer">
+        <div class="heroSection">
+            <div class="leftCategories">
+                <div class="categoryItem"><i class="fa-solid fa-user-doctor"></i>
+                    <p>Groceries & Pets</p><span class="right-arrow"></span>
+                </div>
+                <div class="categoryItem"><i class="fa-solid fa-user-doctor"></i>
+                    <p>Health & Beauty</p><span class="right-arrow"></span>
+                </div>
+                <div class="categoryItem"><i class="fa-solid fa-user-doctor"></i>
+                    <p>Men's Fashion</p><span class="right-arrow"></span>
+                </div>
+                <div class="categoryItem"><i class="fa-solid fa-user-doctor"></i>
+                    <p>Women's Fashion</p><span class="right-arrow"></span>
+                </div>
+                <div class="categoryItem"><i class="fa-solid fa-user-doctor"></i>
+                    <p>Mother & Baby</p><span class="right-arrow"></span>
+                </div>
+                <div class="categoryItem"><i class="fa-solid fa-user-doctor"></i>
+                    <p>Home & Lifestyle</p><span class="right-arrow"></span>
+                </div>
+                <div class="categoryItem"><i class="fa-solid fa-user-doctor"></i>
+                    <p>Electronic Devices</p><span class="right-arrow"></span>
+                </div>
+                <div class="categoryItem"><i class="fa-solid fa-user-doctor"></i>
+                    <p>Electronic Accessories</p><span class="right-arrow"></span>
+                </div>
+                <div class="categoryItem"><i class="fa-solid fa-user-doctor"></i>
+                    <p>TV & Home Appliances</p><span class="right-arrow"></span>
+                </div>
+                <div class="categoryItem"><i class="fa-solid fa-user-doctor"></i>
+                    <p>Sports & Outdoor</p><span class="right-arrow"></span>
+                </div>
+                <div class="categoryItem"><i class="fa-solid fa-user-doctor"></i>
+                    <p>Watches, Bags & Jewelleryy</p><span class="right-arrow"></span>
+                </div>
+            </div>
+
+            <div class="rightCarousel">
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <img src="./images/carousal.jpg" alt="Image 1">
+                        <img src="./images/carousal2.png" alt="Image 2">
+                        <img src="./images/carousal3.jpg" alt="Image 3">
+                    </div>
+                    <a class="prev" onclick="prevSlide()">&#10094;</a>
+                    <a class="next" onclick="nextSlide()">&#10095;</a>
+                    <div class="dots-container">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- Image and nav -->
+    <div class="heroSecond">
+        <div class="bannr">
+            <img src="./images/banner.gif" alt="">
+        </div>
+        <div class="containerBx">
+            <ul>
+                <!-- <i class="fa-regular fa-square-check"></i> -->
+                <li></i>Safe Payments</li>
+                <span class="containerBxSpan">|</span>
+                <li>Nationwide Delivery</li>
+                <span class="containerBxSpan">|</span>
+                <li>Free & Easy Returns</li>
+                <span class="containerBxSpan">|</span>
+                <li>Best Price Guaranteed</li>
+                <span class="containerBxSpan">|</span>
+                <li>100% Authentic Products</li>
+                <span class="containerBxSpan">|</span>
+                <li>Daraz Verified</li>
+            </ul>
+        </div>
+
+        <!-- channel container -->
+        <div class="channelContainer">
+            <div class="channelContainer_inner">
+                <div> <img src="./images/delivry.png" alt=""><a href="#">Free Delivery</a></div>
+                <div><img src="./images/mart.png" alt=""><a href="#">Delivery</a></div>
+                <div><img src="./images/fashion.png" alt=""><a href="#">Mart</a></div>
+                <div><img src="./images/beauty.png" alt=""><a href="#">Fashion</a></div>
+                <div><img src="./images/home.png" alt=""><a href="#">Beauty</a></div>
+                <div><img src="./images/daraz.png" alt=""><a href="#">Home & Docor</a></div>
+                <div><img src="./images/flash.png" alt=""><a href="#">Flash on sale</a></div>
+                <div><img src="./images/newdaraz.png" alt=""><a href="#">New on Daraz</a></div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Section Flash sale -->
+        <section class="flashSale_main">
+            <h2>Flash Sale</h2>
+            <section class="flashSale">
+                <p class="on-sale">On Sale Now</p>
+                <div class="timer">
+                    <h1>Ending in</h1>
+                    <div class="boxes">
+                        <div class="box">
+                            <p class="hour"></p>
+                            <p class="hour-text">hour</p>
+                        </div>
+                        <div class="box">
+                            <p class="minute"></p>
+                            <p class="minute-text">minute</p>
+                        </div>
+                        <div class="box">
+                            <p class="second"></p>
+                            <p class="second-text">second</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="shopMore">SHOP MORE</a>
+            </section>
+            <div id="product-container" class="flashContent" >
+                <!-- card -->
+                <div id="data">
+
+                </div>
+                <!-- <div  class="flashCard">
+                    
+                    <img src="	https://static-01.daraz.pk/p/a77b8e82a6024336432ec3cba57af459.jpg" alt="img">
+                    <p class="flashTitle">Blue color baby dinosaur cloth organizer</p>
+                    <p class="flashPrice">Rs.300</p>
+                </div> 
+                
+               
+                <div class="flashCard">
+                    <img src="./images/beauty.png" alt="img">
+                    <p class="flashTitle">Adjustable Hand Grip Power Exercise Forearms</p>
+                    <p class="flashPrice">Rs.300</p>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- categories section -->
+        <section class="categoriesSection">
+            <h2>Categories</h2>
+            <div class="catContent">
+                <div class="catCard ">
+                    
+                </div>
+                <!-- <div class="catCard">
+                    <img  src="https://static-01.daraz.pk/p/7f334bb352046900528b7f261ace61d7.jpg" alt="home">
+                    <p class="catTitle">Early Learning</p>
+                 </div> -->
+                
+            </div>
+        </section>
+
+        <!-- Just For You Section-->
+        <section class="mainProducts">
+            <h2>Just For You</h2>
+         <div class="products">
+            <div class="data">
+
+            </div>
+           
+        <!-- <div-- class="singleProducts">
+            <img src="https://static-01.daraz.pk/p/96c8e39603827a931bb31de6e09004dc.jpg_200x200q80-product.jpg_.webp" alt="">
+            <p class="title">Glupatone Extreme Strong Whitening Emulsion</p>
+            <p class="price">Rs.365</p>
+           
+        </div-->
+        <br>
+        <div>
+        <button class="Load-more">LOAD MORE</a></button>
+       </div>
+        </section>
+<!-- footer Section  -->
+        <section class="main-list">
+            
+           <div class="All-lists">
+            <h3 class="heading">Customer care</h3>
+            <ul>
+                <li> <a href="">Help Center</a></li>
+                <li><a href="">How to Buy</a></li>
+                <li> <a href="">Corporate & Bulk Purchasing</a></li>
+                <li><a href="">Returns & Refunds</a></li>
+                <li> <a href="">Daraz Shop</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li> <a href="">Purchase Protection</a></li>
+                <li><a href="">Daraz Pick up Points</a></li>
+            </ul>
+            <div class="All-lists">
+                <h3 class="headings">Make Money With Us</h3>
+                <ul>
+                    <li> <a href="">Daraz University</a></li>
+                    <li><a href="">Sell on Daraz</a></li>
+                    <li> <a href="">Join Daraz Affiliate Program</a></li>
+                </ul>
+               </div>
+           </div>
+           <div class="All-lists">
+            <h3 class="heading">Daraz</h3>
+            <ul>
+                <li> <a href="">About Us</a></li>
+                <li><a href="">Digital Payment</a></li>
+                <li> <a href="">Daraz Donates</a></li>
+                <li><a href="">Daraz Blog</a></li>
+                <li> <a href="">Terms & Conditions</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li> NTN Number : 4012118-6</li>
+                <li>STRN Number : 1700401211818</li>
+                <li><a href="">Online Shopping App</a></li>
+                <li> <a href="">Online Grocery Shopping</a></li>
+                <li><a href="">Daraz Exclusive</a></li>
+            </ul>
+           </div>
+           <div class="All-lists">
+            <h3 class="heading">Daraz International</h3>
+               <div class="imagess">    
+               <a href=""> <img src="./images/img8.png" alt="">Pakistan</a>
+               <a href=""> <img src="./images/img1.png" alt="">Myanmar</a>
+               <a href=""> <img src="./images/img2.png" alt="">Sri Lanka</a>
+               <a href=""> <img src="./images/img3.png" alt="">Bangladesh</a>
+               <a href=""> <img src="./images/img7.png" alt="">Nepal</a>
+              </div>
+
+              <div>
+                <h3 class="headings">Payment Methods</h3>
+                <img class="mainimg" src="./images/img9.png" alt="">
+              </div>
+              <div>
+                <h3 class="headings">Verified by</h3>
+                <img class="img12" src="./images/img12.png" alt="">
+               
+              </div>
+           
+           </div>
+           <div class="All-lists">
+            <h3 class="heading">Exclusive Deals and Offer</h3>
+            <div>
+                <div class="executives">
+                    <img src="./images/QR.png" alt="">
+                  
+                </div>
+                <div class="deals">
+                    <a href=""> <img src="./images/Appstr.png" alt=""></a>
+                    <a href="">  <img src="./images/googlply.png" alt=""></a>
+                    <a href=""><img src="./images/Appglry.png" alt=""></a>
+                </div>
+                <div class="downldapp">
+                    <img class="smalimg" src="./images/O1CN01Ie2YnK1JmZ1mL3fY5_!!6000000001071-2-tps-60-60.png" alt="">
+                    <img src="./images/shoping.png" alt="">
+                    <p>Download App</p>
+
+                </div>
+                <div>
+                    <h3 class="headings">Follow Us</h3>
+                </div>
+                <div class="Folllow-us">
+                 <a href=""><img src="./images/FBicon.png" alt=""></a>
+                 <a href=""><img src="./images/twtricon.png" alt=""></a>
+                 <a href=""><img src="./images/instaicon.png" alt=""></a>
+                 <a href=""><img src="./images/youtubicon.png" alt=""></a>
+                 <a href=""><img src="./images/globeicon.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
+           
+        </section>
+    </main>
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
+
